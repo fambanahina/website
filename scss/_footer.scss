@@ -1,0 +1,42 @@
+.footer {
+  background-color: rgb(47, 47, 47);
+  color: white;
+  .main-footer {
+    padding: 1rem 0;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    div {
+      h2 {
+        margin: 1.5rem 0;
+      }
+      ul {
+        font-weight: 100;
+        line-height: 2;
+      }
+    }
+  }
+  .secondary-footer {
+    padding: 0.2rem;
+    background-color: rgb(26, 26, 26);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    p {
+      padding: 0.5rem;
+    }
+    .secondary-footer-icons {
+      text-align: center;
+      padding: 0.5rem;
+      display: flex;
+      justify-content: space-evenly;
+      i {
+        color: gray;
+      }
+    }
+    p {
+      color: gray;
+    }
+  }
+}

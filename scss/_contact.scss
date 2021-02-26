@@ -1,0 +1,32 @@
+.contact {
+  .showcase {
+    height: 50vh;
+    background-image: url("/img/1.jpg");
+    background-position: center;
+    background-size: cover;
+    h1 {
+      color: white;
+      font-size: 60px;
+      -webkit-text-fill-color: transparent; /* Will override color (regardless of order) */
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: white;
+    }
+  }
+
+  .social-logos {
+    padding: 3vh 0;
+    background-color: #333;
+    text-align: center;
+    color: white;
+    ul {
+      margin: auto;
+      padding: 3vh;
+      width: 360px;
+      display: flex;
+      justify-content: space-evenly;
+      i {
+        font-size: 20px;
+      }
+    }
+  }
+}

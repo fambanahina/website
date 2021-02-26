@@ -1,0 +1,29 @@
+.showcase {
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-position: right bottom;
+  background-size: cover;
+  .showcase-container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 500px;
+    img {
+      width: 100%;
+      animation: onload 2s;
+    }
+  }
+}
+
+@keyframes onload {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+  to {
+    opacity: 1;
+  }
+}
