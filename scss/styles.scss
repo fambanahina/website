@@ -16,7 +16,6 @@ html {
   min-width: 390px;
 }
 body {
-  min-width: 320px;
   font-family: "Roboto", sans-serif;
   background-color: (var(--clr-white));
   width: 100%;
@@ -37,7 +36,9 @@ li {
 /* 
 @import "_hamburger";
 @import "_navbar";
+
+@import "_contact"; */
+
 @import "_showcase";
 @import "_services";
-@import "_contact"; */
 @import "_footer";
