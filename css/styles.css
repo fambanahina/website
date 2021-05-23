@@ -11,9 +11,16 @@
   --clr-blue: #225baa;
   --clr-grey-1: #222;
   --clr-grey-2: #111;
+  --grid-width-1: 320px;
+  --grid-width-2: 360px;
+}
+
+html {
+  min-width: 390px;
 }
 
 body {
+  min-width: 320px;
   font-family: "Roboto", sans-serif;
   background-color: var(--clr-white);
   width: 100%;
@@ -56,8 +63,8 @@ li {
 .footer .main-footer .wrapper {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(250px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  -ms-grid-columns: (minmax(var(--grid-width-2), 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(var(--grid-width-2), 1fr));
 }
 
 .footer .main-footer .wrapper .box {
@@ -132,8 +139,8 @@ li {
 .footer .developer-footer .wrapper {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (minmax(370px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+  -ms-grid-columns: (minmax(var(--grid-width-2), 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(var(--grid-width-2), 1fr));
 }
 
 .footer .developer-footer .wrapper .social {
@@ -154,6 +161,11 @@ li {
 
 .footer .developer-footer .wrapper .details {
   padding: 20px 0;
+}
+
+.footer .developer-footer .wrapper .details p {
+  color: red;
+  font-size: clamp(0.8rem, 2.5vw, 1rem);
 }
 
 @media screen and (max-width: 800px) {

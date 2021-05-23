@@ -9,8 +9,14 @@
   --clr-blue: #225baa;
   --clr-grey-1: #222;
   --clr-grey-2: #111;
+  --grid-width-1: 320px;
+  --grid-width-2: 360px;
+}
+html {
+  min-width: 390px;
 }
 body {
+  min-width: 320px;
   font-family: "Roboto", sans-serif;
   background-color: (var(--clr-white));
   width: 100%;
