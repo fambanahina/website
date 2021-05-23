@@ -1,5 +1,6 @@
 .showcase {
   background: url("/img/slide04.jpg");
+  background-size: cover;
   height: 85vh;
   .showcase-wrapper {
     display: flex;
@@ -33,4 +34,7 @@
 }
 
 @media screen and (min-width: 800px) {
+  .showcase {
+    background-position: center;
+  }
 }

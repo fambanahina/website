@@ -51,6 +51,7 @@ li {
 @import "_contact"; */
 .showcase {
   background: url("/img/slide04.jpg");
+  background-size: cover;
   height: 85vh;
 }
 
@@ -92,6 +93,12 @@ li {
 @media screen and (max-width: 800px) {
   .showcase {
     background-position: -180px 0;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .showcase {
+    background-position: center;
   }
 }
 
