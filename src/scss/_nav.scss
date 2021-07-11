@@ -1,0 +1,14 @@
+.navbar {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  background-color: blue;
+  width: 100%;
+  .wrapper {
+    width: 100%;
+    .logo {
+      font-size: 2rem;
+    }
+  }
+}

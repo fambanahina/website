@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+}
+
+$color-one: #111;
+$color-two: rgb(82, 82, 82);
+$color-three: #2a2a2a;
+$primary-color: #225baa;
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+.wrapper {
+  min-width: 280px;
+  max-width: 1260px;
+  padding: 0 30px;
+  margin: auto;
+}
+
+body {
+  font-family: "Titillium Web", "Roboto", sans-serif;
+  width: 100%;
+  user-select: none;
+}
+
+@import "_nav";
+@import "_showcase";
+@import "_about";
+@import "_choose_us";
+@import "_footer";

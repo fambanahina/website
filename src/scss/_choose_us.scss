@@ -1,0 +1,51 @@
+.wcu {
+  text-align: center;
+  height: 60vh;
+
+  position: relative;
+  .header {
+    background-color: #f6f6f6;
+    padding-top: 30px;
+    height: 40vh;
+    color: $color-three;
+    h3 {
+      font-weight: 300;
+      text-transform: uppercase;
+      font-size: 2rem;
+    }
+    h1 {
+      font-weight: 600;
+      font-size: 3.5rem;
+    }
+    .icon-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      hr {
+        width: 60px;
+        display: inline-block;
+        border: 2px dotted gray;
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+      }
+      img {
+        margin: 0 30px;
+      }
+
+      padding: 20px 0;
+    }
+  }
+  .carousel {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    .box {
+      height: 300px;
+      background-color: white;
+      border-top-left-radius: 10px;
+      box-shadow: 0 1px 6px 0 rgb(0, 0, 0 / 10%), 0 3px 0 0 #777;
+      border-bottom: 3px solid $color-three;
+    }
+  }
+}

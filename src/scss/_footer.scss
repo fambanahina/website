@@ -1,0 +1,23 @@
+.footer {
+  padding: 40vh 0;
+  background: url("../img/map.png") no-repeat center $color-three;
+  width: 100%;
+  .wrapper {
+    width: 100%;
+  }
+  hr {
+    border: none;
+    height: 1px;
+    background-color: #727272;
+    width: 100%;
+  }
+  .developer {
+    padding-top: 30px;
+    text-transform: uppercase;
+    color: #727272;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: sans-serif;
+  }
+}
